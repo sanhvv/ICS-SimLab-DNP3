@@ -98,15 +98,33 @@
         }
     ],
 
+    "actuators":
+    [
+        {
+            "name": "actuator1",
+            "hil": "hil1",
+            "inbound_connections":
+            [
+
+            ]
+        }
+    ],
+
     "hils":
     [
         {
             "name": "hil1",
-            "logic": "hil1_logic.py",
+            "logic": "electrical_hil_logic.py",
             "physical_values":
             [
                 {
-                    "name": "static_ground"
+                    "name": "solar_power"
+                },
+                {
+                    "name": "transfer_switch_state"
+                },
+                {
+                    "name": "house_power"
                 }
             ]
         }
