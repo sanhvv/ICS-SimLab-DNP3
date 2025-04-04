@@ -3,7 +3,7 @@
     [
         {
             "name": "ats_plc",
-            "logic": "ats_plc_logic.py",
+            "logic": "smart_grid_simulation/ats_plc_logic.py",
             "inbound_connections":
             [
             ],
@@ -115,7 +115,7 @@
     [
         {
             "name": "transfer_switch",
-            "logic": "transfer_switch_logic.py",
+            "logic": "smart_grid_simulation/transfer_switch_logic.py",
             "hil": "electrical_hil",
             "inbound_connections":
             [
@@ -158,7 +158,7 @@
     [
         {
             "name": "electrical_hil",
-            "logic": "electrical_hil_logic.py",
+            "logic": "smart_grid_simulation/electrical_hil_logic.py",
             "physical_values":
             [
                 {
